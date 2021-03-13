@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.todo {
+    width: 150%;
+    max-width: 800px;
+    padding: 25px;    
+    height: 100%;
+    margin: 20px auto;
+    background:rgb(66, 66, 221);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 15px -20px 9px 0px rgb(48, 48, 235);
+    transition: .5s;
+}
+.secciones{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.secciones_2{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    color: brown; 
+    margin: 80px auto;
+}
+.datos{
+    width: 150px;
+    height: 100%;
+    background-color: brown;
+    border: 5px solid tomato;
+    border-radius: 20px;
+    transition: .5s;
+}
+.datos:hover{
+    width: 400px;
+}
+#logo{
+    width: 200px;
+    height: 108px;
+}
+
+img {
+
+    width: 100%;
+    border-radius:20px ;
+
+}
